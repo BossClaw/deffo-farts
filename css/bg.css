@@ -1,0 +1,26 @@
+:root {
+    --scroll-offset: 0;
+
+    --scroll-bg: -1px;
+    --scroll-mg: -1px;
+    --scroll-fg: -1px;
+    
+    --pos-bg: -1px;
+    --pos-mg: -1px;
+    --pos-fg: -1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg/bg_SKY.png') repeat-x fixed center / auto 100vh;
+}
+
+#parallax_container {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/bg/bg_FG.gif'), url('../img/bg/bg_MG.png'), url('../img/bg/bg_BG.png');
+    background-position: var(--pos-fg), var(--pos-mg), var(--pos-bg);
+    background-size: 100%;
+    backdrop-filter: saturate(180%) blur(40px);
+}

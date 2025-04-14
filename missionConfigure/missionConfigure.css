@@ -1,0 +1,12 @@
+
+.active-language{
+    background-color: green;
+}
+
+#difficulty {
+    width: 300px;
+}
+
+#level {
+    width: 600px;
+}
